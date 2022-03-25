@@ -1,0 +1,110 @@
+﻿@font-face {
+    font-family: "flaticon";
+    src: url("flaticon.ttf") format("truetype"),
+url("flaticon.woff") format("woff"),
+url("flaticon.woff2") format("woff2"),
+url("flaticon.eot") format("embedded-opentype"),
+url("flaticon.svg") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-cleaner:before {
+    content: "\f101";
+}
+.flaticon-car-service:before {
+    content: "\f102";
+}
+.flaticon-toothbrush:before {
+    content: "\f103";
+}
+.flaticon-vacuum:before {
+    content: "\f104";
+}
+.flaticon-cleaning:before {
+    content: "\f105";
+}
+.flaticon-cleaning-1:before {
+    content: "\f106";
+}
+.flaticon-house-cleaning:before {
+    content: "\f107";
+}
+.flaticon-washing-machine:before {
+    content: "\f108";
+}
+.flaticon-call:before {
+    content: "\f109";
+}
+.flaticon-communicate:before {
+    content: "\f10a";
+}
+.flaticon-mail:before {
+    content: "\f10b";
+}
+.flaticon-earth-globe:before {
+    content: "\f10c";
+}
+.flaticon-bullhorn:before {
+    content: "\f10d";
+}
+.flaticon-channel:before {
+    content: "\f10e";
+}
+.flaticon-pin:before {
+    content: "\f10f";
+}
+.flaticon-call-center:before {
+    content: "\f110";
+}
+.flaticon-customer-support:before {
+    content: "\f111";
+}
+.flaticon-support:before {
+    content: "\f112";
+}
+.flaticon-brush:before {
+    content: "\f113";
+}
+.flaticon-brush-1:before {
+    content: "\f114";
+}
+.flaticon-window-cleaner:before {
+    content: "\f115";
+}
+.flaticon-window-cleaner-1:before {
+    content: "\f116";
+}
+.flaticon-checklist:before {
+    content: "\f117";
+}
+.flaticon-review:before {
+    content: "\f118";
+}
+.flaticon-certification:before {
+    content: "\f119";
+}
+.flaticon-trophy:before {
+    content: "\f11a";
+}
+.flaticon-podium:before {
+    content: "\f11b";
+}
+.flaticon-medical-protection:before {
+    content: "\f11c";
+}
+.flaticon-glass:before {
+    content: "\f11d";
+}
+.flaticon-medal:before {
+    content: "\f11e";
+}
