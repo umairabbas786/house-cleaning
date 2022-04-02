@@ -15,6 +15,7 @@
                 <div class="col-12 col-md-10 col-xl-9 mx-auto">
                     <!--Start of .hero-text-area-->
                     <h1 class="hero-title"><span class="featured-text"> CONTACT US </span></h1>
+                    <p class="hero-subtitle">Tuane`s Cleaning</p>
                 </div>
                 <!--End of .hero-text-area-->
             </div>
@@ -35,25 +36,26 @@
                 <div class="info-panel"><i class="bi bi-geo-alt icon"></i>
                   <div class="info-content">
                     <h6 class="info-title">our locations</h6>
-                    <p class="info-text">5 xyz st. elraml alexandria 10 abc st. elraml alexandria</p>
+                    <p class="info-text">19406 66TH Avenue W.
+Lynnwood, WA – 98036</p>
                   </div>
                 </div>
                 <div class="info-panel"><i class="bi bi-phone icon"></i>
                   <div class="info-content">
                     <h6 class="info-title">phone numbers</h6>
-                    <p class="info-text"> <a class="tel link" href="tel:0123456789">(02) 0123456789</a></p>
+                    <p class="info-text"> <a class="tel link" href="tel:+12068996316">(02) (206) 899 – 6316 Call or Text</a></p>
                   </div>
                 </div>
                 <div class="info-panel"><i class="bi bi-envelope icon"></i>
                   <div class="info-content">
                     <h6 class="info-title">Emails</h6>
-                    <p class="info-text"> <a class="tel link" href="mailto:yourname@example.com">yourname@example.com</a></p>
+                    <p class="info-text"> <a class="tel link" href="mailto:tuanecleaning@gmail.com">tuanecleaning@gmail.com</a></p>
                   </div>
                 </div>
                 <div class="info-panel"><i class="bi bi-globe icon"></i>
                   <div class="info-content">
                     <h6 class="info-title">website</h6>
-                    <p class="info-text"> <a class="site link" href="https://www.your-name.com"> https://www.your-name.com</a></p>
+                    <p class="info-text"> <a class="site link" href="http://tuanecleaning.com/"> http://tuanecleaning.com/</a></p>
                   </div>
                 </div>
               </div>
@@ -72,22 +74,22 @@
                 <!--Form To have user messages-->
                 <form class="main-form" id="contact-us-form" action="" method="post"><span class="done-msg"></span>
                   <div class="row ">
-                    <div class="col-12 col-lg-6">
-                      <div class="   input-wrapper">
+                    <div class="col-12">
+                      <div class="input-wrapper">
                         <input class="text-input" id="user-name" name="UserName" type="text">
                         <label class="input-label" for="user-name"> Name <span class="req">*</span></label><span class="b-border"></span><span class="error-msg"></span>
                       </div>
                     </div>
-                    <div class="col-12 col-lg-6">
-                      <div class="   input-wrapper">
+                    <div class="col-12">
+                      <div class="input-wrapper">
                         <input class="text-input" id="user-email" name="UserEmail" type="email">
                         <label class="input-label" for="user-email"> E-mail <span class="req">*</span></label><span class="b-border"></span><span class="error-msg"></span>
                       </div>
                     </div>
                     <div class="col-12 ">
-                      <div class="   input-wrapper">
-                        <input class="text-input" id="msg-subject" name="subject" type="text">
-                        <label class="input-label" for="msg-subject"> Subject <span class="req">*</span></label><span class="b-border"></span><span class="error-msg"></span>
+                      <div class="input-wrapper">
+                        <input class="text-input" id="msg-subject" name="phone" type="text">
+                        <label class="input-label" for="msg-subject"> Phone Number <span class="req">*</span></label><span class="b-border"></span><span class="error-msg"></span>
                       </div>
                     </div>
                     <div class="col-12 ">

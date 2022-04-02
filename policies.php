@@ -18,9 +18,7 @@
                 </div>
                 <div class="col-10  col-xl-8 mx-auto">
                     <p class="hero-subtitle">
-                        Thank you for choosing Karen’s Kleaning! We request that you please read the following
-                        information so that we can provide the best possible service. Contact the office if you have any
-                        questions or comments.
+                    Thank you for choosing Tuane`s Cleaning ! We request that you please read the following information so that we can provide the best possible service. Contact the office if you have any questions or comments.
                     </p>
                 </div>
                 <!--End of .hero-text-area-->
@@ -37,35 +35,19 @@
             <div class="col-md-8 offset-md-2">
                 <h4 class="text-center">Payment Policies</h4>
                 <ul class="p-3">
-                    <li>We require a credit card on file to reserve all appointments. You may choose to pay by check or
-                        credit card for your cleanings.</li>
-                    <li><strong>Any </strong>changes to your payment method must be agreed on and changed by the office
-                        (not the cleaning staff).</li>
+                    <li>You may choose to pay by check or cash for your cleanings.</li>
                 </ul>
                 <h4>If paying by check:</h4>
                 <ul class="p-3">
                     <li>Please include your client number on your check and leave on the kitchen counter upon arrival of
                         the cleaning crew.</li>
-                    <li>If the crew does not receive a check, the credit card on file will be run for the full amount of
-                        cleaning unless you make alternate arrangements.</li>
-                    <li>If the service cost exceeds the check amount, the remaining balance will be run on your credit
-                        card (unless prior arrangements have been made).</li>
-                    <li>We charge a $25 processing fee for all returned checks.</li>
+                    <li>If the crew does not receive a check, the payment needs to be made by cash.</li>
                 </ul>
-                <h4 class="text-center">Karen’s Kleaning Prices are Based on Total Labor</h4>
-                <p>Karen’s Kleaning prices are based on the total hours of labor required to complete the service that
-                    you have requested. Additional charges above the initial estimate may occur if additional labor is
-                    required to complete the service, or if you request additional services at the time of your
-                    appointment. All additional charges must be authorized by both the client and the office. Please
-                    note that the total amount of labor includes time spent gaining entry to the job site, unloading
-                    equipment, communicating with the client, and communicating with Karen’s Kleaning management about
-                    your service.</p>
-                <h4 class="text-center">Karen’s Kleaning Staff</h4>
-                <p>Our standard team size is 2 employees; however, we also regularly will send just 1, or a team of 3 to
-                    4. The price does not change depending on how many employees we send. Please contact the office if
-                    you have a requirement on team size, and we will do our best to accommodate it.</p>
-                <p>On occasion, our staff may need to take a rest or meal break while at the jobsite per California law.
-                </p>
+                <h4 class="text-center">Tuane`s Cleaning  Prices are Based on Total Labor</h4>
+                <p>Tuane`s Cleaning prices are based on square feet and the type of service required that you have requested. Additional charges above the initial estimate may occur if you 
+request additional services at the time of your appointment. All additional charges must be authorized by both the client and the office. </p>
+                <h4 class="text-center">Tuane`s Cleaning Staff</h4>
+                <p>Our standard team size is 2 employees; however, we also regularly will send just 1, or a team of 3 to 4. The price does not change depending on how many employees we send. Please contact the office if you have a requirement on team size, and we will do our best to accommodate it.</p>
                 <h4 class="text-center">Late Cancellation Policy & Scheduling Information</h4>
                 <p>We require 48hrs notice if you need to cancel/reschedule your appointment. Because we are closed on
                     weekends, Monday appointments must be cancelled or rescheduled by the previous Thursday. In order to
@@ -83,42 +65,12 @@
                     MUST INFORM THE OFFICE WITHIN 24 HOURS. Please let us know as soon as possible so that we can
                     arrange for a crew to fix the job.</p>
                 <h4 class="text-center">Cleaning Equipment & Products</h4>
-                <p>Karen’s Kleaning crews will supply all necessary cleaning equipment and products. We offer standard
-                    cleaning products or certified Green Cleaning products. The choice is yours, at no cost difference.
+                <p>Tuane`s Cleaning crews will supply all necessary cleaning equipment and products. 
                 </p>
-                <p>Please follow the instructions listed below if you would like to take advantage of the following
-                    optional services. All are included in any basic or deluxe cleaning.</p>
-                <table class="table plan text-white">
-                    <thead style="background-color:#08BCE9;">
-                        <tr>
-                            <th scope="col">Optional Service</th>
-                            <th scope="col">Client responsibility</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td bgcolor="#2DACB4"><span color="#FFFFFF" style="color: #ffffff;"><b>Optional
-                                        Service</b></span></td>
-                            <td bgcolor="#2DACB4"><span color="#FFFFFF" style="color: #ffffff;"><b>Client
-                                        responsibility</b></span></td>
-                        </tr>
-                        <tr>
-                            <td>Trash liners replaced</td>
-                            <td>Leave new liners on kitchen counter or in respective trash cans</td>
-                        </tr>
-                        <tr>
-                            <td>Bed linens changed</td>
-                            <td>Leave clean linens out on respective beds</td>
-                        </tr>
-                        <tr>
-                            <td>Patios swept</td>
-                            <td>Leave broom out on the patio/balcony</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p>Thanks for choosing Karen’s Kleaning! We look forward to making your home or office shine!</p>
+                
+                <p>Thanks for choosing Tuane`s Cleaning We look forward to making your home or office shine!</p>
                 <p>Sincerely,</p>
-                <p>The Staff at Karen’s Kleaning</p>
+                <p>The Staff at Tuane`s Cleaning</p>
             </div>
         </div>
     </div>

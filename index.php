@@ -3,20 +3,15 @@
 <!-- Start  Page hero-->
 <section class="page-hero d-flex align-items-center" id="page-hero" style="height:100vh!important;">
     <div class="particles-js  dots" id="particles-js"></div>
-    <div class="hero-social-icons bottom-position center-align  ">
+    <!-- <div class="hero-social-icons bottom-position center-align  ">
         <div class="sc-wrapper dir-row sc-flat">
             <ul class="sc-list">
-                <li class="sc-item " title="Facebook"><a class="sc-link" href="#0"><i
-                            class="fab fa-facebook-f sc-icon"></i></a></li>
-                <li class="sc-item " title="youtube"><a class="sc-link" href="#0"><i
-                            class="fab fa-youtube sc-icon"></i></a></li>
-                <li class="sc-item " title="instagram"><a class="sc-link" href="#0"><i
-                            class="fab fa-instagram sc-icon"></i></a></li>
-                <li class="sc-item " title="twitter"><a class="sc-link" href="#0"><i
-                            class="fab fa-twitter sc-icon"></i></a></li>
+                <li class="sc-item">Our approach to cleaning is simple. Low flat rates, no hidden fees and happiness guaranteed</li>
+                <br>
+                <li class="sc-item ">*An initial cleaning is required for new users and Upkeep cleanings can be scheduled after at a reduced rate with no contracts or commitments.</li>
             </ul>
         </div>
-    </div>
+    </div> -->
     <!--Start Video background-->
     <div class="section-video-bg ">
         <video class="video" src="assets/videos/section-bg-video-1.mp4" autoplay="" muted="" loop=""> </video>
@@ -28,19 +23,19 @@
             <div class="row">
                 <div class="col-12 col-md-10 col-xl-9 mx-auto">
                     <!--Start of .hero-text-area-->
-                    <h1 class="hero-title   "><span class="first-word hollow-text"> providing </span> you the right
-                        sanitizing <span class="featured-text"> solutions! </span></h1>
+                    <h1 class="hero-title"><span class="first-word hollow-text"> CENTRAL SEATTLE'S </span>TOP HOUSE CLEANING <span class="featured-text"> SERVICE! </span></h1>
                 </div>
                 <div class="col-10  col-xl-8 mx-auto">
                     <p class="hero-subtitle   ">
-                        Lorem ipsum dolor sit amet, consectetur perspiciatis elit. Sed
-                        architecto dolorum inventore totam adipisci provident placeat
-                        excepturi voluptate impedit architecto
+                    Serving Lynnwood, Shoreline, Bothell, Mill Creek, Kenmore, Kirkland and Redmond 
                     </p>
+                    <div class="cta-links-area mb-2"><a class=" btn-solid cta-link cta-link-primary  " href="tel:+12068996316">(206) 899 – 6316 call or text</a></div>
                 </div>
                 <div class="col-12 ">
-                    <div class="cta-links-area"><a class=" btn-solid cta-link cta-link-primary  " href="#0">start
-                            now</a></div>
+                    <div class="cta-links-area"><a class=" btn-solid cta-link cta-link-primary  " href="book.php">Book
+                            Now</a></div>
+                    <p class="hero-subtitle mt-4">Our approach to cleaning is simple. Low flat rates, no hidden fees and happiness guaranteed</p>
+                    <p class="hero-subtitle" style="font-weight:700">*An initial cleaning is required for new users and Upkeep cleanings can be scheduled after at a reduced rate with no contracts or commitments.</p>
                 </div>
                 <!--End of .hero-text-area-->
             </div>
@@ -82,9 +77,7 @@
                             </div>
                         </div>
                         <p class=" init-text">
-                            Karen’s Kleaning offers one-time, weekly, bi-weekly, and monthly scheduling options. We
-                            offer basic and deep cleaning, or we can customize a plan just for you! Rotational cleaning
-                            is available as well.
+                        Tuane`s Cleaning offers one-time, every week, every 2 weeks, and once a month scheduling options. We offer basic and deep cleaning, or we can customize a plan just for you! 
 
                         </p>
                         <div class="info-items-list">
@@ -93,16 +86,8 @@
                                     <ul class="menu-items">
                                         <li class="info-item"><i class="flaticon-medal  info-icon"></i>
                                             <div class="info-content">
-                                                <h5 class="info-title">Trusted & Experienced </h5>
-                                                <p class="info-text">Serving the Santa Barbara area for over 25 years!
-                                                    Well trained and vetted cleaners you can trust!</p>
-                                            </div>
-                                        </li>
-                                        <li class="info-item"><i class="flaticon-medical-protection info-icon"></i>
-                                            <div class="info-content">
-                                                <h5 class="info-title"> Reliable & Fully Insured </h5>
-                                                <p class="info-text">We are insured, bonded, and licensed. You can rely
-                                                    on our teams to show up ready to work!</p>
+                                                <h5 class="info-title">Verified Professionals:  </h5>
+                                                <p class="info-text">We choose trusted, friendly Professionals who are insured and background checked. Well trained and vetted cleaners you can trust!</p>
                                             </div>
                                         </li>
                                         <li class="info-item"><i class="flaticon-cleaning info-icon"></i>
@@ -114,9 +99,8 @@
                                         </li>
                                         <li class="info-item"><i class="flaticon-brush-1 info-icon"></i>
                                             <div class="info-content">
-                                                <h5 class="info-title">Satisfaction Guarenteed</h5>
-                                                <p class="info-text">If you are not happy we will come back and fix any
-                                                    problems free of charge! Your satisfaction is our top priority!</p>
+                                                <h5 class="info-title">Happiness Guarenteed</h5>
+                                                <p class="info-text">Our customer`s satisfaction is our priority, and our cleanings are guaranteed.</p>
                                             </div>
                                         </li>
                                     </ul>
@@ -155,9 +139,9 @@
                     <div class="service-icon"><i class="flaticon-medical-protection font-icon"></i></div><span
                         class="service-num hollow-text">1 </span>
                     <div class="service-content">
-                        <h3 class="service-title">Basic Cleaning</h3>
+                        <h3 class="service-title">Standard Cleaning</h3>
                         <p class="service-text">
-                            Our Basic Cleanng provides a great general cleaning of your home or office.
+                            Our Standard Cleanng provides a great general cleaning of your home or office.
                         </p>
                     </div>
                 </div>
@@ -169,44 +153,14 @@
                     <div class="service-icon"><i class="flaticon-house-cleaning font-icon"></i></div><span
                         class="service-num hollow-text">2 </span>
                     <div class="service-content">
-                        <h3 class="service-title">Deluxe Cleaning</h3>
+                        <h3 class="service-title">Deep Cleaning</h3>
                         <p class="service-text">
-                            The Deluxe package includes everything in the basic cleaning plus a more thourough detailed
+                            The Deep Cleaning includes everything in the basic cleaning plus a more thourough detailed
                             cleaning.
                         </p>
                     </div>
                 </div>
                 <!-- End Second service box-->
-            </div>
-            <div class="col-12 col-md-9  col-lg-4 mx-auto">
-                <!--Start Third service box-->
-                <div class="service-box" data-tilt="data-tilt" style="height:280px!important;">
-                    <div class="service-icon"><i class="flaticon-window-cleaner-1 font-icon"></i></div><span
-                        class="service-num hollow-text">3 </span>
-                    <div class="service-content">
-                        <h3 class="service-title">Quick Klean</h3>
-                        <p class="service-text">
-                            On a budget or just need a light clean? Our quick clean includes floors, bathrooms and
-                            kitchen sink.
-                        </p>
-                    </div>
-                </div>
-                <!-- End Third service box-->
-            </div>
-            <div class="col-12 col-md-9  col-lg-4 mx-auto">
-                <!--Start fourth service box-->
-                <div class="service-box" data-tilt="data-tilt" style="height:280px!important;">
-                    <div class="service-icon"><i class="flaticon-podium font-icon"></i></div><span
-                        class="service-num hollow-text">4 </span>
-                    <div class="service-content">
-                        <h3 class="service-title">Carpet Cleaning</h3>
-                        <p class="service-text">
-                            We offer steam cleaning of carpets and upholstery using a truck mounted steam cleaning
-                            system.
-                        </p>
-                    </div>
-                </div>
-                <!-- End fourth service box   -->
             </div>
             <div class="col-12 col-md-9  col-lg-4 mx-auto">
                 <!--Start 6th service box-->
@@ -218,20 +172,6 @@
                         <p class="service-text">
                             Moving is already hard enough work. Let us do the dirty work and clean up after a move out
                             or spruce up your new home before you move in. </p>
-                    </div>
-                </div>
-                <!-- End 6th service box-->
-            </div>
-            <div class="col-12 col-md-9  col-lg-4 mx-auto">
-                <!--Start 6th service box-->
-                <div class="service-box  " data-tilt="data-tilt" style="height:280px!important;">
-                    <div class="service-icon"><i class="flaticon-channel  font-icon"></i></div><span
-                        class="service-num hollow-text">6 </span>
-                    <div class="service-content">
-                        <h3 class="service-title">Window Cleaning</h3>
-                        <p class="service-text">
-                            We offer window cleaning inside and outside, including tracks and screens. And also
-                            exteriour power washing.
                     </div>
                 </div>
                 <!-- End 6th service box-->
@@ -271,9 +211,7 @@
                                     </div>
                                     <div class="customer-testimonial"><i class="fas fa-quote-left   icon"></i>
                                         <div class="content">
-                                            <p class="testimonial-text "> ipsum dolor sit amet consectetur adipisicing
-                                                elit. Quod, id sequi aut qui est ab, corporis quis maiores reiciendis
-                                                explicabo odio tenetur nulla sint vel.</p>
+                                            <p class="testimonial-text "> “We have been using Tuane`s Cleaning for years and have never had an issue. I had worked with other cleaning services previously that often forgot to return my calls or emails, which drove me crazy. Tuane`s Cleaning always responds to my communications and they do all they can to accommodate our needs. The workers are thorough, and my house is sparkling clean every time they come. Highly recommend.” -Roni H.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -290,16 +228,14 @@
                                     </div>
                                     <div class="customer-testimonial"><i class="fas fa-quote-left   icon"></i>
                                         <div class="content">
-                                            <p class="testimonial-text "> ipsum dolor sit amet consectetur adipisicing
-                                                elit. Quod, id sequi aut qui est ab, corporis quis maiores reiciendis
-                                                explicabo odio tenetur nulla sint vel.</p>
+                                            <p class="testimonial-text "> “Tuane`s Cleaning is the best. They are fast, efficient, and always follow the instructions they are given. Their cleaning is consistent and very thorough. Of all the cleaners I have ever used, I find my house looks, feels, and smells clean when they are at my house. They polish all the surfaces after they clean them, which makes a big difference. I like to walk in the house and be able to tell they were there! That is always the case with Tuane`s Cleaning! Highly recommended!” -Mary D.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!--third Slide-->
-                        <div class="swiper-slide">
+                        <!-- <div class="swiper-slide">
                             <div class="testmonial-card d-flex align-items-center justify-content-center">
                                 <div class="testimonial-content">
                                     <div class="customer-info ">
@@ -316,7 +252,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <!--navigation buttons-->
                     <div class="swiper-button-prev">
@@ -443,8 +379,8 @@
                         <div class="card-header " id="heading-6">
                             <h5 class="mb-0 faq-title">
                                 <button class="btn btn-link  faq-btn  collapsed " data-bs-toggle="collapse"
-                                    data-bs-target="#collapse-6" aria-expanded="true" aria-controls="collapse-6"> hw can
-                                    i sign up the contract?</button>
+                                    data-bs-target="#collapse-6" aria-expanded="true" aria-controls="collapse-6"> how can
+                                    I sign up the contract?</button>
                             </h5>
                         </div>
                         <div class="collapse " id="collapse-6" aria-labelledby="heading-6" data-parent="#accordion">
@@ -472,106 +408,90 @@
 <!-- End  faq Section-->
 <!-- Start  contact-us Section-->
 <section class="contact-us  mega-section  pb-0" id="contact-us">
-    <div class="container">
+      <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-5  mx-auto  mb-5 mb-lg-0   " data-wow-delay="0.4s">
-                <div class=" contact-info-panel">
-                    <div class="overlay-pattern-image-bg " data-bg-img="assets/Images/sections-bg-images/pattern-bg.jpg"
-                        data-bg-opacity=".25"></div>
-                    <div class="overlay-color"></div>
-                    <div class="info-section ">
-                        <div class="info-panel"><i class="bi bi-geo-alt icon"></i>
-                            <div class="info-content">
-                                <h6 class="info-title">our locations</h6>
-                                <p class="info-text">
-                                    5 xyz st. elraml alexandria 10 abc st. elraml alexandria
-
-
-                                </p>
-                            </div>
-                        </div>
-                        <div class="info-panel"><i class="bi bi-phone icon"></i>
-                            <div class="info-content">
-                                <h6 class="info-title">phone numbers</h6>
-                                <p class="info-text"> <a class="tel link" href="tel:0123456789">(02) 0123456789</a></p>
-                            </div>
-                        </div>
-                        <div class="info-panel"><i class="bi bi-envelope icon"></i>
-                            <div class="info-content">
-                                <h6 class="info-title">Emails</h6>
-                                <p class="info-text"> <a class="tel link"
-                                        href="mailto:yourname@example.com">yourname@example.com</a></p>
-                            </div>
-                        </div>
-                        <div class="info-panel"><i class="bi bi-globe icon"></i>
-                            <div class="info-content">
-                                <h6 class="info-title">website</h6>
-                                <p class="info-text"> <a class="site link" href="https://www.your-name.com">
-                                        https://www.your-name.com</a></p>
-                            </div>
-                        </div>
-                    </div>
+          <div class="col-12 col-lg-5  mx-auto  mb-5 mb-lg-0 wow fadeInUp  " data-wow-delay="0.4s">
+            <div class=" contact-info-panel">
+              <div class="overlay-pattern-image-bg " data-bg-img="assets/Images/sections-bg-images/pattern-bg.jpg" data-bg-opacity=".25"></div>
+              <div class="overlay-color"></div>
+              <div class="info-section ">
+                <div class="info-panel"><i class="bi bi-geo-alt icon"></i>
+                  <div class="info-content">
+                    <h6 class="info-title">our locations</h6>
+                    <p class="info-text">19406 66TH Avenue W.
+Lynnwood, WA – 98036</p>
+                  </div>
                 </div>
-            </div>
-            <div class="col-12 col-lg-7  mx-auto   ">
-                <div class="contact-form-panel">
-                    <div class="sec-heading  ">
-                        <div class="content-area">
-                            <h2 class=" title"><span class="hollow-text ">Keep</span> in toutch</h2>
-                            <p class="subtitle    ">We Will answer your questions as soon as possible</p>
-                            <div class=" bottom-line    "></div>
-                        </div>
-                    </div>
-                    <div class="custom-form-area input-boxed">
-                        <!--Form To have user messages-->
-                        <form class="main-form" id="contact-us-form" action="" method="post"><span
-                                class="done-msg"></span>
-                            <div class="row ">
-                                <div class="col-12 col-lg-6">
-                                    <div class="   input-wrapper">
-                                        <input class="text-input" id="user-name" name="UserName" type="text">
-                                        <label class="input-label" for="user-name"> Name <span
-                                                class="req">*</span></label><span class="b-border"></span><span
-                                            class="error-msg"></span>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-lg-6">
-                                    <div class="   input-wrapper">
-                                        <input class="text-input" id="user-email" name="UserEmail" type="email">
-                                        <label class="input-label" for="user-email"> E-mail <span
-                                                class="req">*</span></label><span class="b-border"></span><span
-                                            class="error-msg"></span>
-                                    </div>
-                                </div>
-                                <div class="col-12 ">
-                                    <div class="   input-wrapper">
-                                        <input class="text-input" id="msg-subject" name="subject" type="text">
-                                        <label class="input-label" for="msg-subject"> Subject <span
-                                                class="req">*</span></label><span class="b-border"></span><span
-                                            class="error-msg"></span>
-                                    </div>
-                                </div>
-                                <div class="col-12 ">
-                                    <div class="   input-wrapper">
-                                        <textarea class=" text-input" id="msg-text" name="message"></textarea>
-                                        <label class="input-label" for="msg-text"> your message <span
-                                                class="req">*</span></label><span class="b-border"></span><i></i><span
-                                            class="error-msg"></span>
-                                    </div>
-                                </div>
-                                <div class="col-12 submit-wrapper">
-                                    <button class=" btn-solid" id="submit-btn" type="submit" name="UserSubmit">Send your
-                                        message</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                <div class="info-panel"><i class="bi bi-phone icon"></i>
+                  <div class="info-content">
+                    <h6 class="info-title">phone numbers</h6>
+                    <p class="info-text"> <a class="tel link" href="tel:+12068996316">(02) (206) 899 – 6316 Call or Text</a></p>
+                  </div>
                 </div>
+                <div class="info-panel"><i class="bi bi-envelope icon"></i>
+                  <div class="info-content">
+                    <h6 class="info-title">Emails</h6>
+                    <p class="info-text"> <a class="tel link" href="mailto:tuanecleaning@gmail.com">tuanecleaning@gmail.com</a></p>
+                  </div>
+                </div>
+                <div class="info-panel"><i class="bi bi-globe icon"></i>
+                  <div class="info-content">
+                    <h6 class="info-title">website</h6>
+                    <p class="info-text"> <a class="site link" href="http://tuanecleaning.com/"> http://tuanecleaning.com/</a></p>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="col-12 col-lg-7  mx-auto wow fadeInUp  " data-wow-delay="0.2s">
+            <div class="contact-form-panel">
+              <div class="sec-heading  ">
+                <div class="content-area">
+                  <h2 class=" title    wow fadeInUp" data-wow-delay=".4s"><span class="hollow-text ">Keep</span> in touch</h2>
+                  <p class="subtitle   wow fadeInUp " data-wow-delay=".6s">We Will answer your questions as soon as possible</p>
+                  <div class=" bottom-line    wow fadeInUp" data-wow-delay=".7s"></div>
+                </div>
+              </div>
+              <div class="custom-form-area input-boxed"> 
+                <!--Form To have user messages-->
+                <form class="main-form" id="contact-us-form" action="" method="post"><span class="done-msg"></span>
+                  <div class="row ">
+                    <div class="col-12">
+                      <div class="input-wrapper">
+                        <input class="text-input" id="user-name" name="UserName" type="text">
+                        <label class="input-label" for="user-name"> Name <span class="req">*</span></label><span class="b-border"></span><span class="error-msg"></span>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="input-wrapper">
+                        <input class="text-input" id="user-email" name="UserEmail" type="email">
+                        <label class="input-label" for="user-email"> E-mail <span class="req">*</span></label><span class="b-border"></span><span class="error-msg"></span>
+                      </div>
+                    </div>
+                    <div class="col-12 ">
+                      <div class="input-wrapper">
+                        <input class="text-input" id="msg-subject" name="phone" type="text">
+                        <label class="input-label" for="msg-subject"> Phone Number <span class="req">*</span></label><span class="b-border"></span><span class="error-msg"></span>
+                      </div>
+                    </div>
+                    <div class="col-12 ">
+                      <div class="   input-wrapper">
+                        <textarea class=" text-input" id="msg-text" name="message"></textarea>
+                        <label class="input-label" for="msg-text"> your message <span class="req">*</span></label><span class="b-border"></span><i></i><span class="error-msg"></span>
+                      </div>
+                    </div>
+                    <div class="col-12 submit-wrapper">
+                      <button class=" btn-solid" id="submit-btn" type="submit" name="UserSubmit">Send your message</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
-<!-- End  contact-us Section-->
+      </div>
+    </section>
+    <!-- End  contact-us Section-->
 
 
 <?php include "include/footer.php";?>

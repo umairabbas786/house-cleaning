@@ -65,13 +65,14 @@
         <h2 class=" footer-col-title    ">contact information</h2>
         <div class="footer-col-content-wrapper">
           <div class="contact-info-card"><i class="bi bi-envelope icon"></i><a class="text-lowercase  info"
-              href="mailto:example@support.com">example@support.com</a></div>
+              href="mailto:tuanecleaning@gmail.com">tuanecleaning@gmail.com</a></div>
           <div class="contact-info-card"><i class="bi bi-globe icon"></i><a class="text-lowercase  info"
-              href="#0">www.yoursite.com</a></div>
-          <div class="contact-info-card"><i class="bi bi-geo-alt icon"></i><span class="text-lowercase  info">5 Xyz st.,
-              Abc, alexandria, egypt.</span></div>
+              href="http://tuanecleaning.com/">http://tuanecleaning.com/</a></div>
+          <div class="contact-info-card"><i class="bi bi-geo-alt icon"></i><span class="text-lowercase  info">19406 66TH Avenue W.
+Lynnwood, WA – 98036
+</span></div>
           <div class="contact-info-card"><i class="bi bi-phone icon"></i><a class="info"
-              href="tel:+20123456789">+20123456789 </a></div>
+              href="tel:+12068996316">(206) 899 – 6316 call or text </a></div>
         </div>
       </div>
     </div>

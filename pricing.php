@@ -39,6 +39,8 @@
                     plans</span>
                 <h2 class=" title"><span class='hollow-text'>affordable</span>
                     pricing plans</h2>
+                    <h5>Service pricing for our most popular services (Standard Cleaning). Send us an estimate request form if you’re not quite sure. Any other services will require a personalized estimate</h5>
+                    <h3 class="text-center">Please contact us for a free estimate for Deep Cleaning or Move in/Out</h3>
             </div>
         </div>
         <div class="row">
@@ -46,61 +48,47 @@
                 <table class="table plan text-white">
                     <thead style="background-color:#08BCE9;">
                         <tr>
-                            <th scope="col"># of rooms</th>
                             <th scope="col">Sq. feet</th>
-                            <th scope="col">Basic</th>
-                            <th scope="col">Deluxe</th>
-                            <th scope="col">Special</th>
+                            <th scope="col">Every Week</th>
+                            <th scope="col">Every 2 Weeks</th>
+                            <th scope="col">Once a Month</th>
                         </tr>
                     </thead>
                     <tbody class="row-hover">
                         <tr class="row-2 even">
-                            <td class="column-1">1 bed/ 1 bath</td>
-                            <td class="column-2">500-800 </td>
-                            <td class="column-3">$105-$130</td>
-                            <td class="column-4">$312-$416</td>
-                            <td class="column-5">$105</td>
+                            <td class="column-2">1000-1500</td>
+                            <td class="column-3">$100-$120</td>
+                            <td class="column-4">$120-$130</td>
+                            <td class="column-5">$140-$150</td>
                         </tr>
                         <tr class="row-3 odd">
-                            <td class="column-1">2 bed/ 1 bath</td>
-                            <td class="column-2">500-1000</td>
-                            <td class="column-3">$130-$156</td>
-                            <td class="column-4">$416-$468</td>
-                            <td class="column-5">$105</td>
+                            <td class="column-2">1500-2000</td>
+                            <td class="column-3">$130-$140</td>
+                            <td class="column-4">$140-$150</td>
+                            <td class="column-5">$160-$170</td>
                         </tr>
                         <tr class="row-4 even">
-                            <td class="column-1">2 bed/ 2 bath</td>
-                            <td class="column-2">800-1300</td>
-                            <td class="column-3">$156-$182</td>
-                            <td class="column-4">$468-$572</td>
-                            <td class="column-5">$105-$130</td>
+                            <td class="column-2">2000-2500</td>
+                            <td class="column-3">$140-$150</td>
+                            <td class="column-4">$150-$160</td>
+                            <td class="column-5">$170-$180</td>
                         </tr>
                         <tr class="row-5 odd">
-                            <td class="column-1">3 bed/ 2 bath</td>
-                            <td class="column-2">1300-1800</td>
-                            <td class="column-3">$182-$208</td>
-                            <td class="column-4">$546-$624</td>
-                            <td class="column-5">$130</td>
-                        </tr>
-                        <tr class="row-6 even">
-                            <td class="column-1">3-4 bed/ 3 bath</td>
-                            <td class="column-2">2000-2500</td>
-                            <td class="column-3">$234-$286</td>
-                            <td class="column-4">$624-$728</td>
-                            <td class="column-5">$156</td>
-                        </tr>
-                        <tr class="row-7 odd">
-                            <td class="column-1">4+ bed/ 4 bath</td>
-                            <td class="column-2">3000-4000</td>
-                            <td class="column-3">$364-$442</td>
-                            <td class="column-4">$780+</td>
-                            <td class="column-5">$182-$208</td>
+                            <td class="column-2">2500-3000</td>
+                            <td class="column-3">$150-$160</td>
+                            <td class="column-4">$160-$180</td>
+                            <td class="column-5">$190-$200</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <div class="text-center col-12 mt-5">
                 <h3>*ANYTHING LARGER PLEASE CALL FOR A FREE ESTIMATE.</h3>
+                <br>
+                <h2>These are our regular packages but we can set up a cleaning service that works with your budget.</h2><br>
+                <h5>Prices may Vary
+Prices are based on average sized homes. The final prices may vary and are determined when you request a free customized estimate specific to your home.
+</h5>
             </div>
             <div class="col-6 text-center mt-3">
                 <a class="btn-solid header-cta-btn" href="estimate.php">Get Estimate</a>

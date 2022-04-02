@@ -18,9 +18,7 @@
                 </div>
                 <div class="col-10  col-xl-8 mx-auto">
                     <p class="hero-subtitle">
-                        Karen’s Kleaning crews will supply all necessary cleaning equipment and your choice of the
-                        following cleaning products for your service:
-                    </p>
+                        Tuane`s Cleaning crews will supply all necessary cleaning equipment for your service. </p>
                 </div>
                 <!--End of .hero-text-area-->
             </div>
@@ -34,7 +32,7 @@
     <div class="container">
         <div class="row">
             <!--First Plan-->
-            <div class="col-12 col-md-9 col-lg-4  mx-auto price-plan ">
+            <div class="col-12 col-md-6 col-lg-6  mx-auto price-plan ">
                 <div class="plan">
                     <div class="plan-head"><i class="flaticon-cleaner plan-icon"></i>
                         <h4 class="plane-name mt-2">Standard </h4>
@@ -60,35 +58,32 @@
                 </div>
             </div>
             <!--Second-plan-->
-            <div class="col-12 col-md-9 col-lg-4  mx-auto price-plan ">
+            <div class="col-12 col-md-6 col-lg-6  mx-auto price-plan ">
                 <div class="plan">
                     <div class="plan-head"><i class="flaticon-cleaning plan-icon"></i>
-                        <h4 class="plane-name mt-2">Green Kleaning</h4>
+                        <h4 class="plane-name mt-2">SERVICE AREAS</h4>
                     </div>
                     <div class="plan-details">
-                        <ul class="plan-list">
-                            <li class="plan-feat "><span class="feat-text">Green Glass & Multi-Surface Cleaner*</span>
+                        <p>Tuane`s Cleaning provides house cleaning services to most major cities on the Seattle,
+                            including Lynnwood, Shoreline, Bothell, Mill Creek, Kenmore, Kirkland and Redmond
+                        </p>
+                        <ul style="font-size:18px;">
+                            <li>Seattle
+                                <ul>
+                                    <li>Lynnwood</li>
+                                    <li>Shoreline</li>
+                                    <li>Bothell</li>
+                                    <li>Mill Creek</li>
+                                    <li>Kenmore</li>
+                                    <li>Kirkland</li>
+                                    <li>Redmond</li>
+                                </ul>
                             </li>
-                            <li class="plan-feat "> <span class="feat-text">Green All-purpose Floor & Surface
-                                    Cleaner*</span></li>
-                            <li class="plan-feat "> <span class="feat-text">Green Restroom Cleaner*</span></li>
-                            <li class="plan-feat "> <span class="feat-text">Green Cleaner/Degreaser*</span></li>
-                            <li class="plan-feat "> <span class="feat-text">Green Stainless Steel Cleaner*</span></li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-            <!--Third-plan-->
-            <div class="col-12 col-md-9 col-lg-4  mx-auto price-plan ">
-                <div class="plan">
-                    <div class="plan-head"><i class="flaticon-earth-globe plan-icon"></i>
-                        <h4 class="plane-name mt-2">Other</h4>
-                    </div>
-                    <div class="plan-details">
-                        <ul class="plan-list">
-                            <li class="plan-feat "> <span class="feat-text">Microfiber Dusting Cloths</span></li>
-                            <li class="plan-feat "> <span class="feat-text">Dish Soap (for window cleaning)</span></li>
-                        </ul>
+                        <p>Above is a list of the areas we serve. </p>
+                        <p>If you live in the general area and don’t see your
+                            city listed below, give us a Call or text at (206) 899 – 6316.</p>
+                            <p>Chances are good that we provide house cleaning services to your area as well.</p>
                     </div>
                 </div>
             </div>
@@ -103,11 +98,14 @@
         <div class="container">
             <div class="sec-heading  centered ">
                 <div class="content-area">
-                    <h2 class="title">Green-Seal <span
-                            class="hollow-text">certified</span></h2>
-                    <p class="subtitle">Green Seal is an independent, non-profit organization, recognized by the United States Green Building Council (USGBC). Green Seal certifies products as “Green” based on several factors, including environmental sustainability, lower environmental impact, cleaning performance, and reduced human and aquatic toxicity.</p>
+                    <h2 class="title">Green-Seal <span class="hollow-text">certified</span></h2>
+                    <p class="subtitle">Green Seal is an independent, non-profit organization, recognized by the United
+                        States Green Building Council (USGBC). Green Seal certifies products as “Green” based on several
+                        factors, including environmental sustainability, lower environmental impact, cleaning
+                        performance, and reduced human and aquatic toxicity.</p>
                 </div>
-                <a href="https://greenseal.org/splash/" target="_blank"><img src="assets/Images/green_seal_logo.png" alt="green logo"></a>
+                <a href="https://greenseal.org/splash/" target="_blank"><img src="assets/Images/green_seal_logo.png"
+                        alt="green logo"></a>
             </div>
         </div>
     </div>

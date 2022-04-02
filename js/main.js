@@ -376,7 +376,7 @@ $(function () {
 
         ValidateNotEmptyInput(userName, "Please Enter Your Name");
         ValidateNotEmptyInput(userEmail, "Please Enter Your Email");
-        ValidateNotEmptyInput(msgSubject, "Please Enter Your subject");
+        ValidateNotEmptyInput(msgSubject, "Please Enter Your Phone Number");
         ValidateNotEmptyInput(msgText, "Please Enter Your Message");
         validateEmailInput(userEmail);
 

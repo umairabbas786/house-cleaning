@@ -298,10 +298,7 @@
                 </div>
                 <div class="col-10  col-xl-8 mx-auto">
                     <p class="hero-subtitle">
-                        Below is a list of our most popular cleaning services and a description of what is included in
-                        each service. We are happy to help you customize or modify a cleaning. These 3 services can
-                        either be BOOKED NOW online or if you aren’t quite ready you can request a personalized estimate
-                        by clicking the Get Estimate button.
+                    Below is a list of our most popular cleaning services and a description of what is included in each service. We are happy to help you customize or modify a cleaning. 
                     </p>
                 </div>
                 <!--End of .hero-text-area-->
@@ -315,14 +312,13 @@
 <section class="pricing mega-section  dark-cards " id="pricing">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-12">
-                <h3>Basic Cleaning</h3>
-                <p>Our BASIC cleaning package provides a great general cleaning of your home or office.</p>
-                <ul>
+            <div class="col-12 col-md-8 offset-md-2">
+                <h1>Standard Cleaning</h1>
+                <p style="font-size:24px;">Our Standard cleaning package provides a great general cleaning of your home or office.</p>
+                <ul style="font-size:20px;">
                     <li>Dust vertical and horizontal surfaces such as furniture, windowsills, and light fixtures.</li>
                     <li>Remove trash.</li>
                     <li>Straighten all areas being cleaned.</li>
-                    <li>Change sheets.</li>
                     <li>Vacuum all exposed uncarpeted and carpeted floors, and some upholstered furniture and blinds per
                         cleaning.</li>
                     <li>Clean glass and mirrors (large mirrors are spot cleaned).</li>
@@ -334,10 +330,9 @@
                     <li>Clean the inside of the kitchen sink window.</li>
                     <li>Sweep the front porch.</li>
                 </ul>
-                <p>All of the above are included if reachable standing on the <b>floor</b>.</p>
                 <a class="btn-solid header-cta-btn" href="book.php">Book Now</a>
             </div>
-            <div class="col-md-6 col-12">
+            <!-- <div class="col-md-6 col-12">
                 <table class="table plan text-white">
                     <thead style="background-color:#08BCE9;">
                         <tr>
@@ -385,7 +380,7 @@
                     </tbody>
                 </table>
                 <p class="text-center">*ANYTHING LARGER PLEASE CALL FOR A FREE ESTIMATE.</p>
-            </div>
+            </div> -->
         </div>
 </section>
 <!-- End  about Section-->
@@ -394,8 +389,8 @@
 <section class="pricing mega-section  dark-cards " id="pricing">
     <div class="container">
         <div class="sec-heading  ">
-            <div class="content-area"><span class=" pre-title">BASIC CLEANING</span>
-                <h2 class=" title">BASIC CLEANING BY ROOM</h2>
+            <div class="content-area"><span class=" pre-title">Standard CLEANING</span>
+                <h2 class=" title">Standard CLEANING BY ROOM</h2>
             </div>
         </div>
         <div class="row">
@@ -417,7 +412,7 @@
                     <li class='ffs-slide active the-one'>
                         <div class='ffs-slide-content'>
                             <div class='ffs-slide-content-inner'>
-                                <h2>Kitchen</h2>
+                                <h2 class="text-black">Kitchen</h2>
                                 <div class='ffs-slide-text'>
                                     <ul>
                                         <li style="text-align: left;">Dust and wipe down all accesible surfaces</li>
@@ -436,7 +431,7 @@
                     <li class='ffs-slide'>
                         <div class='ffs-slide-content'>
                             <div class='ffs-slide-content-inner'>
-                                <h2>BATHROOM</h2>
+                                <h2 class="text-black">BATHROOM</h2>
                                 <div class='ffs-slide-text'>
                                     <ul>
                                         <li style="text-align: left;">clean the toilet</li>
@@ -454,7 +449,7 @@
                     <li class='ffs-slide'>
                         <div class='ffs-slide-content'>
                             <div class='ffs-slide-content-inner'>
-                                <h2>LIVINGROOM / COMMON AREAS</h2>
+                                <h2 class="text-black">LIVINGROOM / COMMON AREAS</h2>
                                 <div class='ffs-slide-text'>
                                     <ul>
                                         <li style="text-align: left;">Dust and wipe all surfaces</li>
@@ -471,14 +466,12 @@
                     <li class='ffs-slide'>
                         <div class='ffs-slide-content'>
                             <div class='ffs-slide-content-inner'>
-                                <h2>Bedrooms</h2>
+                                <h2 class="text-black">Bedrooms</h2>
                                 <div class='ffs-slide-text'>
                                     <ul>
                                         <li style="text-align: left;">Dust and wipe all accesible surfaces</li>
                                         <li style="text-align: left;">Vacuum and mop floors</li>
                                         <li style="text-align: left;">Clean mirrors</li>
-                                        <li style="text-align: left;">Changes bedding (please leave the sheets on bed)
-                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -495,11 +488,10 @@
 <section class="pricing mega-section  dark-cards " id="pricing">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-12">
-                <h3>Deluxe Cleaning</h3>
-                <p>The DELUXE package is a more thorough detailed cleaning. All the tasks in the Basic package, plus the
-                    following:</p>
-                <ul>
+            <div class="col-md-8 offset-md-2 col-12">
+                <h1>Deep Cleaning</h1>
+                <p style="font-size:24px;">The Deep package is a more thorough detailed cleaning. All the tasks in the Standard package, plus the following:</p>
+                <ul style="font-size:20px;">
                     <li>Clean the interior of the fireplace.</li>
                     <li>Tank vacuum all upholstered furniture and&nbsp; window coverings.</li>
                     <li>Remove all cobwebs.</li>
@@ -514,10 +506,10 @@
                     <li>Clean areas under the stove top and kitchen sink.</li>
                     <li>Remove cobwebs outside the front door and wet wipe the exterior of the front door.</li>
                 </ul>
-                <p>All of the above are included if reachable standing on the <b>floor</b>.</p>
-                <a class="btn-solid header-cta-btn" href="book.php">Book Now</a>
+                <h2>PLEASE CONTACT US FOR DEEP CLEANING PRICING</h2>
+                <a class="btn-solid header-cta-btn" href="contact.php">Contact Us</a>
             </div>
-            <div class="col-md-6 col-12">
+            <!-- <div class="col-md-6 col-12">
                 <table class="table plan text-white">
                     <thead style="background-color:#08BCE9;">
                         <tr>
@@ -560,13 +552,13 @@
                     </tbody>
                 </table>
                 <p class="text-center">*ANYTHING LARGER PLEASE CALL FOR A FREE ESTIMATE.</p>
-            </div>
+            </div> -->
         </div>
 </section>
 <!-- End  about Section-->
 
 <!-- Start  about Section-->
-<section class="pricing mega-section  dark-cards " id="pricing">
+<!-- <section class="pricing mega-section  dark-cards " id="pricing">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-12">
@@ -608,8 +600,9 @@
                 <p class="text-center">*ANYTHING LARGER PLEASE CALL FOR A FREE ESTIMATE.</p>
             </div>
         </div>
-</section>
+</section> -->
 <!-- End  about Section-->
+
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 <script>

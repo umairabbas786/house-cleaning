@@ -21,18 +21,17 @@
                             <div class="info">
                                 <div class="info-icon"><i class="bi bi-geo-alt icon"></i></div>
                                 <div class="info-text">
-                                    <p class="text"> 536 xyz st., abc, Alexandria, Egypt </p>
+                                    <p class="text"> 19406 66TH Avenue W.Lynnwood, WA – 98036 </p>
                                 </div>
                             </div>
                             <div class="info">
                                 <div class="info-icon"><i class="bi bi-envelope-open icon"></i></div>
                                 <div class="info-text"><a class="text info-link"
-                                        href="mailto:example@example.com">example@example.com</a></div>
+                                        href="mailto:tuanecleaning@gmail.com">tuanecleaning@gmail.com</a></div>
                             </div>
                             <div class="info">
                                 <div class="info-icon"> <i class="bi bi-telephone-x icon"></i></div>
-                                <div class="info-text"><a class="text info-link" href="tel:(800)123-0045-1254">(800)
-                                        123-0045-1254</a></div>
+                                <div class="info-text"><a class="text info-link" href="tel:+12068996316">(206) 899 – 6316</a></div>
                             </div>
                         </div>
                         <div class="social-icons">
@@ -60,13 +59,14 @@
             <!--Start navbar-->
             <nav class="navbar menu-navbar" id="main-nav">
                 <div class="header-logo"><a class="logo-link" href="#"><img class="logo-img light-logo" loading="lazy"
-                            src="assets/Images/logo/logo-light.png" alt="logo"><img class="logo-img  dark-logo"
-                            loading="lazy" src="assets/Images/logo/logo-dark.png" alt="logo"></a></div>
+                            src="assets/Images/logo.png" alt="logo"><img class="logo-img  dark-logo"
+                            loading="lazy" src="assets/Images/logo.png" alt="logo"></a></div>
                 <div class="links menu-wrapper " id="menu-wrapper-1">
                     <ul class="navbar-nav list-js links-list" id="list-js">
-                    <li class="nav-item  menu-item  "><a class="nav-link menu-link " href="index.php">Home</a></li>
-                        <li class="nav-item menu-item   has-sub-menu"><a class="nav-link menu-link"
-                                href="#page-hero">About Us <i class="bi bi-chevron-down down-Arrow-icon"> </i></a>
+                    <li class="nav-item  menu-item  "><a class=" active nav-link menu-link " href="index.php">Home</a></li>
+                        
+                        <li class="nav-item menu-item has-sub-menu"><a class="nav-link menu-link"
+                                href="">About Us <i class="bi bi-chevron-down down-Arrow-icon"> </i></a>
                             <ul class=" sub-menu ">
                                 <li class=" menu-item   sub-menu-item"><a class=" menu-link sub-menu-link"
                                         href="policies.php">Policies</a></li>
@@ -76,7 +76,7 @@
 
                         </li>
                         <li class="nav-item menu-item   has-sub-menu"><a class="nav-link menu-link"
-                                href="#page-hero">Our Services <i class="bi bi-chevron-down down-Arrow-icon"> </i></a>
+                                href="">Our Services <i class="bi bi-chevron-down down-Arrow-icon"> </i></a>
                             <ul class=" sub-menu ">
                                 <li class=" menu-item   sub-menu-item"><a class=" menu-link sub-menu-link"
                                         href="services.php">Standard Services</a></li>

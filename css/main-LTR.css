@@ -2997,7 +2997,7 @@ body.rounded-btns .field-group .label {
 /*   Start .page-hero Rules   */
 .page-hero .hero-text-area .hero-title, .hero-swiper-slider .slide-title, .hero-swiper-slider.slider-parallax .slide-title {
   font-weight: 900;
-  font-size: 5rem;
+  font-size: 4rem;
   text-transform: capitalize;
   margin-bottom: 1rem;
   color: #fff;
