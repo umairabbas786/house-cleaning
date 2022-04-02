@@ -150,16 +150,16 @@
                                             <li class="choice-4 depth-1"><input type="checkbox"
                                                     id="wpforms-1450-field_5_4" name="wpforms[fields][5][]"
                                                     value="Basic Cleaning"><label class="wpforms-field-label-inline"
-                                                    for="wpforms-1450-field_5_4">Basic Cleaning</label></li>
+                                                    for="wpforms-1450-field_5_4">Standard Cleaning</label></li>
                                             <li class="choice-5 depth-1"><input type="checkbox"
                                                     id="wpforms-1450-field_5_5" name="wpforms[fields][5][]"
                                                     value="Deluxe Cleaning"><label class="wpforms-field-label-inline"
-                                                    for="wpforms-1450-field_5_5">Deluxe Cleaning</label></li>
-                                            <li class="choice-6 depth-1"><input type="checkbox"
-                                                    id="wpforms-1450-field_5_6" name="wpforms[fields][5][]"
-                                                    value="KK Quick Clean"><label class="wpforms-field-label-inline"
-                                                    for="wpforms-1450-field_5_6">KK Quick Clean</label></li>
-                                            <li class="choice-7 depth-1"><input type="checkbox"
+                                                    for="wpforms-1450-field_5_5">Deep Cleaning</label></li>
+                                            <li class="choice-9 depth-1"><input type="checkbox"
+                                                    id="wpforms-1450-field_5_9" name="wpforms[fields][5][]"
+                                                    value="Move-In/Out"><label class="wpforms-field-label-inline"
+                                                    for="wpforms-1450-field_5_9">Move-In/Out</label></li>
+                                                    <li class="choice-7 depth-1"><input type="checkbox"
                                                     id="wpforms-1450-field_5_7" name="wpforms[fields][5][]"
                                                     value="Windows"><label class="wpforms-field-label-inline"
                                                     for="wpforms-1450-field_5_7">Windows</label></li>
@@ -167,19 +167,6 @@
                                                     id="wpforms-1450-field_5_8" name="wpforms[fields][5][]"
                                                     value="Post Construction"><label class="wpforms-field-label-inline"
                                                     for="wpforms-1450-field_5_8">Post Construction</label></li>
-                                            <li class="choice-9 depth-1"><input type="checkbox"
-                                                    id="wpforms-1450-field_5_9" name="wpforms[fields][5][]"
-                                                    value="Move-In/Out"><label class="wpforms-field-label-inline"
-                                                    for="wpforms-1450-field_5_9">Move-In/Out</label></li>
-                                            <li class="choice-10 depth-1"><input type="checkbox"
-                                                    id="wpforms-1450-field_5_10" name="wpforms[fields][5][]"
-                                                    value="Carpet Steam Cleaning"><label
-                                                    class="wpforms-field-label-inline"
-                                                    for="wpforms-1450-field_5_10">Carpet Steam Cleaning</label></li>
-                                            <li class="choice-11 depth-1"><input type="checkbox"
-                                                    id="wpforms-1450-field_5_11" name="wpforms[fields][5][]"
-                                                    value="Power Washing"><label class="wpforms-field-label-inline"
-                                                    for="wpforms-1450-field_5_11">Power Washing</label></li>
                                             <li class="choice-12 depth-1"><input type="checkbox"
                                                     id="wpforms-1450-field_5_12" name="wpforms[fields][5][]"
                                                     value="Office or Commercial Cleaning"><label
@@ -233,7 +220,7 @@
                                                 <label for="wpforms-1440-field_17_9">&nbsp;&nbsp;Wash windows</label>
                                             </li>
                                         </ul>
-                                        <label class="input-label" for="msg-subject"> À La Carte </label>
+                                        <label class="input-label" for="msg-subject"> Would you like to add on À La Carte items?</label>
                                     </div>
                                 </div>
                                 <div class="col-12 col-lg-6">
@@ -289,6 +276,15 @@
                                             <option value="phone call">phone call</option>
                                         </select>
                                         <label class="input-label" for="msg-subject"> Preferred Contact Method </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="   input-wrapper">
+                                        <input class="text-input" id="msg-subject" name="pets" value="yes" type="radio"
+                                            required> Yes <br>
+                                        <input class="text-input" id="msg-subject" name="pets" value="no" type="radio"
+                                            required> No
+                                        <label class="input-label" for="msg-subject"> Do You Have Pets? </label>
                                     </div>
                                 </div>
                                 <div class="col-12">

@@ -12,9 +12,7 @@
                                         src="assets/Images/logo/logo-dark-colored.png" alt="logo"></div>
                                 <h3 class="info-title  ">Who We Are?</h3>
                                 <div class="info-text">
-                                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
-                                        praesentium consequuntur cumque labore modi voluptatum fugit animi tempore id
-                                        perspiciatis!</p>
+                                    <p class="text">Tuane`s Cleaning offers one-time, every week, every 2 weeks, and once a month scheduling options. We offer basic and deep cleaning, or we can customize a plan just for you! </p>
                                 </div>
                             </div>
                             <h3 class="info-title">contact info</h3>

@@ -1,3 +1,20 @@
+<?php
+if(isset($_POST['sendmail'])){
+    $msg = '0';
+    $to = "tuanecleaning@gmail.com";
+    $name = $_POST['name'];
+    $phone = $_POST['phone'];
+    $subject = "tuanecleaning";
+    $from = $_POST['email'];
+    $txt = $_POST['message'];
+    $msg = "Name = $name\r\n" . "Phone Number = $phone\r\n" . "Sender = $from\r\n" . "Message = $txt\r\n";
+    $headers = "From: info@tuanecleaning.com";
+    
+    if(mail($to,$subject,$msg,$headers)){
+        $msg = "1";
+    }
+}
+?>
 <?php include "include/header.php";?>
 <?php include "include/nav.php";?>
 <!-- Start  Page hero-->
@@ -454,34 +471,37 @@ Lynnwood, WA – 98036</p>
               </div>
               <div class="custom-form-area input-boxed"> 
                 <!--Form To have user messages-->
-                <form class="main-form" id="contact-us-form" action="" method="post"><span class="done-msg"></span>
+                <form class="main-form" action="" method="POST">
+                    <?php if($msg == 1){?>
+                    <span class="done-msg">We Recieved your message!</span>
+                    <?php }?>
                   <div class="row ">
                     <div class="col-12">
                       <div class="input-wrapper">
-                        <input class="text-input" id="user-name" name="UserName" type="text">
+                        <input class="text-input" required id="user-name" name="name" type="text">
                         <label class="input-label" for="user-name"> Name <span class="req">*</span></label><span class="b-border"></span><span class="error-msg"></span>
                       </div>
                     </div>
                     <div class="col-12">
                       <div class="input-wrapper">
-                        <input class="text-input" id="user-email" name="UserEmail" type="email">
+                        <input class="text-input" required id="user-email" name="email" type="email">
                         <label class="input-label" for="user-email"> E-mail <span class="req">*</span></label><span class="b-border"></span><span class="error-msg"></span>
                       </div>
                     </div>
                     <div class="col-12 ">
                       <div class="input-wrapper">
-                        <input class="text-input" id="msg-subject" name="phone" type="text">
+                        <input class="text-input" required id="msg-subject" name="phone" type="number">
                         <label class="input-label" for="msg-subject"> Phone Number <span class="req">*</span></label><span class="b-border"></span><span class="error-msg"></span>
                       </div>
                     </div>
                     <div class="col-12 ">
                       <div class="   input-wrapper">
-                        <textarea class=" text-input" id="msg-text" name="message"></textarea>
+                        <textarea class=" text-input" required id="msg-text" name="message"></textarea>
                         <label class="input-label" for="msg-text"> your message <span class="req">*</span></label><span class="b-border"></span><i></i><span class="error-msg"></span>
                       </div>
                     </div>
                     <div class="col-12 submit-wrapper">
-                      <button class=" btn-solid" id="submit-btn" type="submit" name="UserSubmit">Send your message</button>
+                      <button class=" btn-solid" id="submit-btn" type="submit" name="sendmail">Send your message</button>
                     </div>
                   </div>
                 </form>
@@ -492,6 +512,36 @@ Lynnwood, WA – 98036</p>
       </div>
     </section>
     <!-- End  contact-us Section-->
-
-
+    <div class="modal fade" id="ignismyModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label=""><span>×</span></button>
+             </div>
+  
+            <div class="modal-body">
+               
+    <div class="thank-you-pop">
+      <img src="http://goactionstations.co.uk/wp-content/uploads/2017/03/Green-Round-Tick.png" alt="">
+      <h1>Thank You!</h1>
+      <p>Your Email is received and we will contact you soon</p>
+     </div>
+        </div>
+    </div>
+    </div>
+</div>
 <?php include "include/footer.php";?>
+<script>
+<?php 
+    if($msg == '1'){
+?>
+$(document).ready(function() {
+ $('.modal').modal("show");
+});
+
+<?php }else{?>
+$(document).ready(function() {
+ $('.modal').modal("hide");
+});
+<?php }?>
+</script>
