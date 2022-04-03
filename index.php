@@ -1,6 +1,6 @@
 <?php
+$msg = '0';
 if(isset($_POST['sendmail'])){
-    $msg = '0';
     $to = "tuanecleaning@gmail.com";
     $name = $_POST['name'];
     $phone = $_POST['phone'];
@@ -20,15 +20,6 @@ if(isset($_POST['sendmail'])){
 <!-- Start  Page hero-->
 <section class="page-hero d-flex align-items-center" id="page-hero" style="height:100vh!important;">
     <div class="particles-js  dots" id="particles-js"></div>
-    <!-- <div class="hero-social-icons bottom-position center-align  ">
-        <div class="sc-wrapper dir-row sc-flat">
-            <ul class="sc-list">
-                <li class="sc-item">Our approach to cleaning is simple. Low flat rates, no hidden fees and happiness guaranteed</li>
-                <br>
-                <li class="sc-item ">*An initial cleaning is required for new users and Upkeep cleanings can be scheduled after at a reduced rate with no contracts or commitments.</li>
-            </ul>
-        </div>
-    </div> -->
     <!--Start Video background-->
     <div class="section-video-bg ">
         <video class="video" src="assets/videos/section-bg-video-1.mp4" autoplay="" muted="" loop=""> </video>
@@ -40,7 +31,7 @@ if(isset($_POST['sendmail'])){
             <div class="row">
                 <div class="col-12 col-md-10 col-xl-9 mx-auto">
                     <!--Start of .hero-text-area-->
-                    <h1 class="hero-title"><span class="first-word hollow-text"> CENTRAL SEATTLE'S </span>TOP HOUSE CLEANING <span class="featured-text"> SERVICE! </span></h1>
+                    <h1 class="hero-title"> CENTRAL SEATTLE'S TOP HOUSE CLEANING <span class="featured-text"> SERVICE! </span></h1>
                 </div>
                 <div class="col-10  col-xl-8 mx-auto">
                     <p class="hero-subtitle   ">
@@ -52,7 +43,7 @@ if(isset($_POST['sendmail'])){
                     <div class="cta-links-area"><a class=" btn-solid cta-link cta-link-primary  " href="book.php">Book
                             Now</a></div>
                     <p class="hero-subtitle mt-4">Our approach to cleaning is simple. Low flat rates, no hidden fees and happiness guaranteed</p>
-                    <p class="hero-subtitle" style="font-weight:700">*An initial cleaning is required for new users and Upkeep cleanings can be scheduled after at a reduced rate with no contracts or commitments.</p>
+                    <p class="hero-subtitle">*An initial cleaning is required for new users and Upkeep cleanings can be scheduled after at a reduced rate with no contracts or commitments.</p>
                 </div>
                 <!--End of .hero-text-area-->
             </div>
@@ -89,8 +80,8 @@ if(isset($_POST['sendmail'])){
                     <div class="text-area ">
                         <div class="sec-heading  light-title ">
                             <div class="content-area"><span class=" pre-title">about Us</span>
-                                <h2 class=" title">Full Service Residential & Commercial<span class='featured-text'>
-                                        Cleaning.</span></h2>
+                                <h2 class=" title">Full Service Residential & Commercial
+                                        Cleaning.</h2>
                             </div>
                         </div>
                         <p class=" init-text">
@@ -124,12 +115,6 @@ if(isset($_POST['sendmail'])){
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="cta-area " data-wow-delay=".8s"><a class=" btn-solid " href="#0">Learn more</a>
-                  <div class="signature ">
-                    <div class="signature-img"></div>
-                    <div class="signature-name">CEO &amp; Founder </div>
-                  </div>
-                </div> -->
                     </div>
                 </div>
             </div>
@@ -144,7 +129,7 @@ if(isset($_POST['sendmail'])){
     <div class="container">
         <div class="sec-heading  ">
             <div class="content-area"><span class=" pre-title">services</span>
-                <h2 class=" title"><span class='hollow-text'>services</span> we offer</h2>
+                <h2 class=" title">services we offer</h2>
                 <p class="subtitle">Following are the services we offer: </p>
             </div>
             <!-- <div class=" cta-area"><a class="cta-btn btn-solid    " href="#0">see all services <i class="bi bi-arrow-right icon "></i></a></div> -->
@@ -183,7 +168,7 @@ if(isset($_POST['sendmail'])){
                 <!--Start 6th service box-->
                 <div class="service-box  " data-tilt="data-tilt" style="height:280px!important;">
                     <div class="service-icon"><i class="flaticon-checklist  font-icon"></i></div><span
-                        class="service-num hollow-text">5 </span>
+                        class="service-num hollow-text">3 </span>
                     <div class="service-content">
                         <h3 class="service-title">Move In & Out Cleaning</h3>
                         <p class="service-text">
@@ -300,7 +285,7 @@ if(isset($_POST['sendmail'])){
     <div class="container">
         <div class="sec-heading  ">
             <div class="content-area"><span class=" pre-title        " data-wow-delay=".2s">FAQs</span>
-                <h2 class=" title    "><span class='hollow-text'>frequently </span> asked questions </h2>
+                <h2 class=" title    ">frequentlyasked questions </h2>
             </div>
         </div>
         <!--Start Accordion List For FAQ-->
@@ -318,7 +303,7 @@ if(isset($_POST['sendmail'])){
                         <div class="collapse  " id="collapse-1" aria-labelledby="heading-1" data-parent="#accordion">
                             <div class="card-body">
                                 <p class="faq-answer">
-                                We require a credit card on file to reserve all cleaning appointments. We require all payments “day of service” unless prior/special arrangements have been made. We accept payment by check or credit card. Any changes to your payment method must be agreed on and changed by the office staff.
+                                We require a cheque or cash on file to reserve all cleaning appointments. We require all payments “day of service” unless prior/special arrangements have been made. We accept payment by check or credit card. Any changes to your payment method must be agreed on and changed by the office staff.
                                 </p>
                             </div>
                         </div>
@@ -369,8 +354,7 @@ if(isset($_POST['sendmail'])){
                         <div class="collapse  " id="collapse-4" aria-labelledby="heading-4" data-parent="#accordion">
                             <div class="card-body">
                                 <p class="faq-answer">
-                                We offer two options for cleaning supplies. We have our standard cleaning products and then we offer our Green Certified Earth Friendly Cleaning products.
-
+                                Yes because they are all verified.
                                 </p>
                             </div>
                         </div>
@@ -403,16 +387,7 @@ if(isset($_POST['sendmail'])){
                         <div class="collapse " id="collapse-6" aria-labelledby="heading-6" data-parent="#accordion">
                             <div class="card-body">
                                 <p class="faq-answer">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life
-                                    accusamus terry richardson ad squid. 3 wolf moon officia
-                                    aute,
-                                    non cupidatat skateboard dolor brunch. Food truck quinoa
-                                    nesciunt
-                                    laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put
-                                    a
-                                    bird on it squid single-origin coffee nulla assumenda
-                                    shoreditch
-                                    et.
+                                    we will send the contract by email, you can sign up online.
                                 </p>
                             </div>
                         </div>
@@ -427,7 +402,7 @@ if(isset($_POST['sendmail'])){
 <section class="contact-us  mega-section  pb-0" id="contact-us">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-5  mx-auto  mb-5 mb-lg-0 wow fadeInUp  " data-wow-delay="0.4s">
+          <div class="col-12 col-lg-5  mx-auto  mb-5 mb-lg-0">
             <div class=" contact-info-panel">
               <div class="overlay-pattern-image-bg " data-bg-img="assets/Images/sections-bg-images/pattern-bg.jpg" data-bg-opacity=".25"></div>
               <div class="overlay-color"></div>
@@ -442,7 +417,7 @@ Lynnwood, WA – 98036</p>
                 <div class="info-panel"><i class="bi bi-phone icon"></i>
                   <div class="info-content">
                     <h6 class="info-title">phone numbers</h6>
-                    <p class="info-text"> <a class="tel link" href="tel:+12068996316">(02) (206) 899 – 6316 Call or Text</a></p>
+                    <p class="info-text"> <a class="tel link" href="tel:+12068996316">(206) 899 – 6316 Call or Text</a></p>
                   </div>
                 </div>
                 <div class="info-panel"><i class="bi bi-envelope icon"></i>
@@ -460,13 +435,13 @@ Lynnwood, WA – 98036</p>
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-7  mx-auto wow fadeInUp  " data-wow-delay="0.2s">
+          <div class="col-12 col-lg-7  mx-auto ">
             <div class="contact-form-panel">
               <div class="sec-heading  ">
                 <div class="content-area">
-                  <h2 class=" title    wow fadeInUp" data-wow-delay=".4s"><span class="hollow-text ">Keep</span> in touch</h2>
-                  <p class="subtitle   wow fadeInUp " data-wow-delay=".6s">We Will answer your questions as soon as possible</p>
-                  <div class=" bottom-line    wow fadeInUp" data-wow-delay=".7s"></div>
+                  <h2 class=" title">Keep in touch</h2>
+                  <p class="subtitle">We Will answer your questions as soon as possible</p>
+                  <div class=" bottom-line  "></div>
                 </div>
               </div>
               <div class="custom-form-area input-boxed"> 

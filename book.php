@@ -226,9 +226,9 @@
                                 <div class="col-12 col-lg-6">
                                     <div class="   input-wrapper">
                                         <select name="contact-method" class="text-input" id="">
-                                            <option value="Basic">Basic</option>
-                                            <option value="Deluxe">Deluxe</option>
-                                            <option value="Quick Klean">Quick Klean</option>
+                                            <option value="Standard Cleaning">Standard Cleaning</option>
+                                            <option value="Deep Cleaning">Deep Cleaning</option>
+                                            <option value="Move in/out">Move in/out</option>
                                         </select>
                                         <label class="input-label" for="msg-subject"> Which type of Cleaning Service
                                             would you like? </label>
@@ -274,23 +274,6 @@
                                                 <label for="wpforms-1440-field_17_9">&nbsp;&nbsp;Wash windows</label></li>
                                         </ul>
                                         <label class="input-label" for="msg-subject"> À La Carte </label>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-lg-6">
-                                    <div class="   input-wrapper">
-                                        <input class="text-input" id="msg-subject" name="cleaners" value="Standard Cleaners" type="radio"
-                                            required> Standard Cleaners <br>
-                                        <input class="text-input" id="msg-subject" name="cleaners" value="Green Certified Cleaners" type="radio"
-                                            required> Green Certified Cleaners
-                                        <label class="input-label" for="msg-subject"> What type of cleaners would you like used? </label>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-lg-6">
-                                    <div class="   input-wrapper">
-                                        <select name="contact-method" class="text-input" id="">
-                                        <option value="Bona (dry mop method)">Bona (dry mop method)</option><option value="Murphy's Oil Soap (standard)">Murphy's Oil Soap (standard)</option><option value="Green Cleaner (Earth Friendly Option)">Green Cleaner (Earth Friendly Option)</option>
-                                        </select>
-                                        <label class="input-label" for="msg-subject"> If you have wood floors what cleaner would you like used? </label>
                                     </div>
                                 </div>
                                 <div class="col-6"></div>
@@ -368,7 +351,7 @@
                                 <div class="col-12 col-lg-6">
                                     <div class="   input-wrapper">
                                         <select name="contact-method" class="text-input" id="">
-                                        <option value="Credit Card">Credit Card</option><option value="Check">Check</option><option value="Cash">Cash</option><option value="Invoice (requires approval)">Invoice (requires approval)</option>
+                                            <option value="Check">Check</option><option value="Cash">Cash</option>
                                         </select>
                                         <label class="input-label" for="msg-subject"> How would you like to pay? </label>
                                     </div>

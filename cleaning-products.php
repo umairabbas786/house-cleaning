@@ -63,7 +63,7 @@
                     <div class="plan-head"><i class="flaticon-cleaning plan-icon"></i>
                         <h4 class="plane-name mt-2">SERVICE AREAS</h4>
                     </div>
-                    <div class="plan-details">
+                    <div class="plan-details" style="color:white;">
                         <p>Tuane`s Cleaning provides house cleaning services to most major cities on the Seattle,
                             including Lynnwood, Shoreline, Bothell, Mill Creek, Kenmore, Kirkland and Redmond
                         </p>

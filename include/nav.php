@@ -1,5 +1,5 @@
 <!--Start Page Header-->
-<header class=" page-header light-header menu-on-end  header-2 " id="page-header">
+<header class=" page-header menu-on-end  header-2 " id="page-header">
     <!--== top bar-->
     <div class="bar-top">
         <div class="container">
@@ -57,8 +57,8 @@
             <!--Start navbar-->
             <nav class="navbar menu-navbar" id="main-nav">
                 <div class="header-logo"><a class="logo-link" href="#"><img class="logo-img light-logo" loading="lazy"
-                            src="assets/Images/logo.png" alt="logo"><img class="logo-img  dark-logo"
-                            loading="lazy" src="assets/Images/logo.png" alt="logo"></a></div>
+                            src="assets/Images/logoo.png" alt="logo"><img class="logo-img  dark-logo"
+                            loading="lazy" src="assets/Images/logoo.png" alt="logo"></a></div>
                 <div class="links menu-wrapper " id="menu-wrapper-1">
                     <ul class="navbar-nav list-js links-list" id="list-js">
                     <li class="nav-item  menu-item  "><a class=" active nav-link menu-link " href="index.php">Home</a></li>
@@ -77,7 +77,7 @@
                                 href="">Our Services <i class="bi bi-chevron-down down-Arrow-icon"> </i></a>
                             <ul class=" sub-menu ">
                                 <li class=" menu-item   sub-menu-item"><a class=" menu-link sub-menu-link"
-                                        href="services.php">Standard Services</a></li>
+                                        href="services.php">Our Standard and Deep Services</a></li>
                                 <li class=" menu-item   sub-menu-item"><a class=" menu-link sub-menu-link"
                                         href="movein-moveout.php">Move in/Move Out Cleaning</a></li>
                                 <li class=" menu-item   sub-menu-item"><a class=" menu-link sub-menu-link"

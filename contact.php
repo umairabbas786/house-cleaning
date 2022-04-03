@@ -1,6 +1,6 @@
 <?php
+$msg = '0';
 if(isset($_POST['sendmail'])){
-    $msg = '0';
     $to = "tuanecleaning@gmail.com";
     $name = $_POST['name'];
     $phone = $_POST['phone'];
@@ -45,7 +45,7 @@ if(isset($_POST['sendmail'])){
 <section class="contact-us  mega-section  pb-0" id="contact-us">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-5  mx-auto  mb-5 mb-lg-0 wow fadeInUp  " data-wow-delay="0.4s">
+          <div class="col-12 col-lg-5  mx-auto  mb-5 mb-lg-0">
             <div class=" contact-info-panel">
               <div class="overlay-pattern-image-bg " data-bg-img="assets/Images/sections-bg-images/pattern-bg.jpg" data-bg-opacity=".25"></div>
               <div class="overlay-color"></div>
@@ -60,7 +60,7 @@ Lynnwood, WA – 98036</p>
                 <div class="info-panel"><i class="bi bi-phone icon"></i>
                   <div class="info-content">
                     <h6 class="info-title">phone numbers</h6>
-                    <p class="info-text"> <a class="tel link" href="tel:+12068996316">(02) (206) 899 – 6316 Call or Text</a></p>
+                    <p class="info-text"> <a class="tel link" href="tel:+12068996316">(206) 899 – 6316 Call or Text</a></p>
                   </div>
                 </div>
                 <div class="info-panel"><i class="bi bi-envelope icon"></i>
@@ -78,13 +78,13 @@ Lynnwood, WA – 98036</p>
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-7  mx-auto wow fadeInUp  " data-wow-delay="0.2s">
+          <div class="col-12 col-lg-7  mx-auto ">
             <div class="contact-form-panel">
               <div class="sec-heading  ">
                 <div class="content-area">
-                  <h2 class=" title    wow fadeInUp" data-wow-delay=".4s"><span class="hollow-text ">Keep</span> in touch</h2>
-                  <p class="subtitle   wow fadeInUp " data-wow-delay=".6s">We Will answer your questions as soon as possible</p>
-                  <div class=" bottom-line    wow fadeInUp" data-wow-delay=".7s"></div>
+                  <h2 class=" title   ">Keep in touch</h2>
+                  <p class="subtitle " >We Will answer your questions as soon as possible</p>
+                  <div class=" bottom-line   "></div>
                 </div>
               </div>
               <div class="custom-form-area input-boxed"> 

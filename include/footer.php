@@ -1,11 +1,11 @@
 <!-- Start  page-footer Section-->
 <footer class="page-footer dark-color-footer" id="page-footer">
-  <div class="overlay-photo-image-bg" data-bg-img="assets/Images/sections-bg-images/pattern-bg.jpg"
-    data-bg-opacity=".075"></div>
+  <!-- <div class="overlay-photo-image-bg" data-bg-img="assets/Images/sections-bg-images/pattern-bg.jpg"
+    data-bg-opacity=".075"></div> -->
   <div class="container">
     <div class="row footer-cols">
-      <div class="col-12 col-md-8 col-lg-4  footer-col"><img class="img-fluid footer-logo" loading="lazy"
-          src="assets/Images/logo/logo-light.png" alt="logo">
+      <div class="col-12 col-md-8 col-lg-4  footer-col"><img class="img-fluid footer-logo"
+          src="assets/Images/logoo.png" alt="logo">
         <div class="footer-col-content-wrapper">
           <p class="footer-text-about-us ">
             We Don’t Cut Corners We Clean Them!
@@ -94,12 +94,6 @@ Lynnwood, WA – 98036
 <!-- End loading-screen Component-->
 <!-- Start back-to-top Component-->
 <div class="back-to-top" id="back-to-top"><i class="bi bi-arrow-up icon "></i>
-</div>
-<!-- End back-to-top Component-->
-<!-- Start back-to-top Component-->
-<div class="mode-switcher ">
-  <div class="switch-inner go-light " title="Switch To Light Mode "><i class="bi bi-sun-fill icon "></i></div>
-  <div class="switch-inner go-dark" title="Switch To Dark Mode "><i class="bi bi-moon-stars icon "></i></div>
 </div>
 <!-- End back-to-top Component-->
 

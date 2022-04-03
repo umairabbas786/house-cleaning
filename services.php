@@ -454,7 +454,7 @@
                                     <ul>
                                         <li style="text-align: left;">Dust and wipe all surfaces</li>
                                         <li style="text-align: left;">Vacuum and Mop all floors</li>
-                                        <li style="text-align: left;">Emty trash</li>
+                                        <li style="text-align: left;">Empty trash</li>
                                         <li style="text-align: left;">Clean mirrors</li>
                                     </ul>
                                 </div>

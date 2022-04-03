@@ -37,10 +37,10 @@
         <div class="sec-heading  ">
             <div class="content-area"><span class=" pre-title">pricing
                     plans</span>
-                <h2 class=" title"><span class='hollow-text'>affordable</span>
+                <h2 class=" title">affordable
                     pricing plans</h2>
                     <h5>Service pricing for our most popular services (Standard Cleaning). Send us an estimate request form if you’re not quite sure. Any other services will require a personalized estimate</h5>
-                    <h3 class="text-center">Please contact us for a free estimate for Deep Cleaning or Move in/Out</h3>
+                    <h5>Please contact us for a free estimate for Deep Cleaning or Move in/Out</h5>
             </div>
         </div>
         <div class="row">
@@ -82,10 +82,10 @@
                     </tbody>
                 </table>
             </div>
-            <div class="text-center col-12 mt-5">
-                <h3>*ANYTHING LARGER PLEASE CALL FOR A FREE ESTIMATE.</h3>
+            <div class="col-12 mt-5">
+                <h5>*ANYTHING LARGER PLEASE CALL FOR A FREE ESTIMATE.</h5>
                 <br>
-                <h2>These are our regular packages but we can set up a cleaning service that works with your budget.</h2><br>
+                <h5>These are our regular packages but we can set up a cleaning service that works with your budget.</h5><br>
                 <h5>Prices may Vary
 Prices are based on average sized homes. The final prices may vary and are determined when you request a free customized estimate specific to your home.
 </h5>

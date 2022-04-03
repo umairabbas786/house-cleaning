@@ -62,32 +62,32 @@ $(function () {
 
 
 
-    $("body").addClass("dark-theme");
-    $(".mode-switcher ").addClass("dark-mode").find(".go-light").addClass("active")
+    // $("body").addClass("dark-theme");
+    // $(".mode-switcher ").addClass("dark-mode").find(".go-light").addClass("active")
 
-    $(".mode-switcher ").on("click", function () {
-        if ($(this).is(".dark-mode")) {
-            $("body").removeClass("dark-theme");
-            $(this)
-                .removeClass("dark-mode")
-                .addClass("light-mode")
-                .find(".go-light")
-                .removeClass("active")
-                .siblings(".go-dark")
-                .addClass("active");
+    // $(".mode-switcher ").on("click", function () {
+    //     if ($(this).is(".dark-mode")) {
+    //         $("body").removeClass("dark-theme");
+    //         $(this)
+    //             .removeClass("dark-mode")
+    //             .addClass("light-mode")
+    //             .find(".go-light")
+    //             .removeClass("active")
+    //             .siblings(".go-dark")
+    //             .addClass("active");
 
-        } else if ($(this).is(".light-mode")) {
-            $("body").addClass("dark-theme");
-            $(this)
-                .removeClass("light-mode")
-                .addClass("dark-mode")
-                .find(".go-dark")
-                .removeClass("active")
-                .siblings(".go-light")
-                .addClass("active");
-        }
+    //     } else if ($(this).is(".light-mode")) {
+    //         $("body").addClass("dark-theme");
+    //         $(this)
+    //             .removeClass("light-mode")
+    //             .addClass("dark-mode")
+    //             .find(".go-dark")
+    //             .removeClass("active")
+    //             .siblings(".go-light")
+    //             .addClass("active");
+    //     }
 
-    });
+    // });
 
     const bg_Image = $("*");
     bg_Image.each(function () {
