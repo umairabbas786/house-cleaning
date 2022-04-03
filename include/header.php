@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HOME PAGE</title>
         <!-- fav icon -->
-        <link rel="icon" href="assets/Images/logo.png">
+        <link rel="icon" href="assets/Images/logoo.png">
         <!-- bootstarp -->
         <link rel="stylesheet" href="css/vendors/bootstrap.min.css">
         <!-- Fancybox -->
