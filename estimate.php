@@ -36,52 +36,64 @@
                 <div class="contact-form-panel">
                     <div class="custom-form-area input-boxed">
                         <!--Form To have user messages-->
-                        <form class="main-form" id="contact-us-form" action="" method="post"><span
+                        <form class="main-form" action="test.php" method="POST"><span
                                 class="done-msg"></span>
                             <div class="row ">
                                 <div class="col-12 col-lg-6">
                                     <div class="   input-wrapper">
-                                        <input class="text-input" id="user-name" name="UserName" type="text" required>
+                                        <input class="text-input" id="user-name" name="name" type="text" required>
                                         <label class="input-label" for="user-name"> Full Name </label>
                                     </div>
                                 </div>
                                 <div class="col-12 col-lg-6">
                                     <div class="   input-wrapper">
-                                        <input class="text-input" id="user-email" name="UserEmail" type="email"
+                                        <input class="text-input" id="user-email" name="email" type="email"
                                             required>
                                         <label class="input-label" for="user-email"> E-mail </label>
                                     </div>
                                 </div>
                                 <div class="col-12 col-lg-6">
                                     <div class="   input-wrapper">
-                                        <input class="text-input" id="msg-subject" name="subject" type="text" required>
+                                        <input class="text-input" id="msg-subject" name="number" type="text" required>
                                         <label class="input-label" for="msg-subject"> Phone Number </label>
                                     </div>
                                 </div>
-                                <div class="col-12 mb-5">
-                                    <h4>Address</h4>
-                                </div>
                                 <div class="col-12 col-lg-6">
                                     <div class="   input-wrapper">
-                                        <input class="text-input" id="msg-subject" name="subject" type="text" required>
+                                        <select name="contact-method" required class="text-input" id="">
+                                            <option value="" disabled="" selected="selected">Preferred Contact Method
+                                            </option>
+                                            <option value="email">email</option>
+                                            <option value="text">text</option>
+                                            <option value="phone call">phone call</option>
+                                        </select>
+                                        <label class="input-label" for="msg-subject"> Preferred Contact Method </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-5">
+                                    <h4>Home and Jobsite Address</h4>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="input-wrapper">
+                                        <input class="text-input" id="msg-subject" name="address-one" type="text" >
                                         <label class="input-label" for="msg-subject"> Address 1 </label>
                                     </div>
                                 </div>
                                 <div class="col-12 col-lg-6">
                                     <div class="   input-wrapper">
-                                        <input class="text-input" id="msg-subject" name="subject" type="text" required>
+                                        <input class="text-input" id="msg-subject" name="address-two" type="text" >
                                         <label class="input-label" for="msg-subject"> Address 2 </label>
                                     </div>
                                 </div>
                                 <div class="col-12 col-lg-6">
                                     <div class="   input-wrapper">
-                                        <input class="text-input" id="msg-subject" name="subject" type="text" required>
+                                        <input class="text-input" id="msg-subject" name="city" type="text" >
                                         <label class="input-label" for="msg-subject"> City </label>
                                     </div>
                                 </div>
                                 <div class="col-12 col-lg-6">
                                     <div class="   input-wrapper">
-                                        <select name="contact-method" class="text-input" id="">
+                                        <select name="state" class="text-input" id="">
                                             <option value="AL">Alabama</option>
                                             <option value="AK">Alaska</option>
                                             <option value="AZ">Arizona</option>
@@ -139,45 +151,89 @@
                                 </div>
                                 <div class="col-12 col-lg-6">
                                     <div class="   input-wrapper">
-                                        <input class="text-input" id="msg-subject" name="subject" type="text" required>
+                                        <input class="text-input" id="msg-subject" name="zip" type="number" required>
                                         <label class="input-label" for="msg-subject"> Zip Code </label>
                                     </div>
                                 </div>
-                                <div class="col-6"></div>
-                                <div class="col-12 col-lg-6">
+                                <div class="col-12">
                                     <div class="   input-wrapper">
-                                        <ul style="list-style-type:none;" class="p-0">
-                                            <li class="choice-4 depth-1"><input type="checkbox"
-                                                    id="wpforms-1450-field_5_4" name="wpforms[fields][5][]"
-                                                    value="Basic Cleaning"><label class="wpforms-field-label-inline"
-                                                    for="wpforms-1450-field_5_4">Standard Cleaning</label></li>
-                                            <li class="choice-5 depth-1"><input type="checkbox"
-                                                    id="wpforms-1450-field_5_5" name="wpforms[fields][5][]"
-                                                    value="Deluxe Cleaning"><label class="wpforms-field-label-inline"
-                                                    for="wpforms-1450-field_5_5">Deep Cleaning</label></li>
-                                            <li class="choice-9 depth-1"><input type="checkbox"
-                                                    id="wpforms-1450-field_5_9" name="wpforms[fields][5][]"
-                                                    value="Move-In/Out"><label class="wpforms-field-label-inline"
-                                                    for="wpforms-1450-field_5_9">Move-In/Out</label></li>
-                                                    <li class="choice-7 depth-1"><input type="checkbox"
-                                                    id="wpforms-1450-field_5_7" name="wpforms[fields][5][]"
-                                                    value="Windows"><label class="wpforms-field-label-inline"
-                                                    for="wpforms-1450-field_5_7">Windows</label></li>
-                                            <li class="choice-8 depth-1"><input type="checkbox"
-                                                    id="wpforms-1450-field_5_8" name="wpforms[fields][5][]"
-                                                    value="Post Construction"><label class="wpforms-field-label-inline"
-                                                    for="wpforms-1450-field_5_8">Post Construction</label></li>
-                                            <li class="choice-12 depth-1"><input type="checkbox"
-                                                    id="wpforms-1450-field_5_12" name="wpforms[fields][5][]"
-                                                    value="Office or Commercial Cleaning"><label
-                                                    class="wpforms-field-label-inline"
-                                                    for="wpforms-1450-field_5_12">Office or Commercial Cleaning</label>
-                                            </li>
-                                        </ul>
-                                        <label class="input-label" for="msg-subject"> What Services are you Interested
-                                            In? </label>
+                                        <input class="text-input" id="msg-subject" name="appointment"
+                                            placeholder="If setting up appointment for someone else please give us the business name or Contact."
+                                            type="text">
+                                        <label class="input-label" for="msg-subject"> Appointment (For Others) </label>
                                     </div>
                                 </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="   input-wrapper">
+                                        <select name="bedroom" required class="text-input" id="">
+                                            <option value="" disabled="" selected="selected">Number of Bedrooms</option>
+                                            <option value="1 Bedroom">1 Bedroom</option>
+                                            <option value="2 Bedrooms">2 Bedrooms</option>
+                                            <option value="3 Bedrooms">3 Bedrooms</option>
+                                            <option value="4 Bedrooms">4 Bedrooms</option>
+                                            <option value="5 or more Bedrooms">5 or more Bedrooms</option>
+                                        </select>
+                                        <label class="input-label" for="msg-subject"> Number of Bedrooms </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="   input-wrapper">
+                                        <select name="bathroom" required class="text-input" id="">
+                                            <option value="" disabled="" selected="selected">Number of Bathrooms
+                                            </option>
+                                            <option value="1 Bathroom">1 Bathroom</option>
+                                            <option value="2 Bathrooms">2 Bathrooms</option>
+                                            <option value="3 Bathrooms">3 Bathrooms</option>
+                                            <option value="4 Bathrooms">4 Bathrooms</option>
+                                            <option value="5 or more Bathrooms">5 or more Bathrooms</option>
+                                        </select>
+                                        <label class="input-label" for="msg-subject"> Number of Bathrooms </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="   input-wrapper">
+                                        <input class="text-input" id="msg-subject"
+                                            placeholder="Total Square Footage (approximate) of your home if you know."
+                                            name="square-foot" type="text" required>
+                                        <label class="input-label" for="msg-subject"> Square Footage </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="   input-wrapper">
+                                        <input class="text-input" id="msg-subject"
+                                            placeholder="How many stories is your home?" name="stories" type="text"
+                                            required>
+                                        <label class="input-label" for="msg-subject"> Stories </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="   input-wrapper">
+                                        <input class="text-input" id="msg-subject" name="pets" value="yes" type="radio"
+                                            required> Yes <br>
+                                        <input class="text-input" id="msg-subject" name="pets" value="no" type="radio"
+                                            required> No
+                                        <label class="input-label" for="msg-subject"> Do You Have Pets? </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="   input-wrapper">
+                                        <input class="text-input" id="msg-subject"
+                                            placeholder="Special Pet Instructions" name="pets-ins" type="text">
+                                        <label class="input-label" for="msg-subject"> Pet Instructions </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="   input-wrapper">
+                                        <select name="services" class="text-input" id="">
+                                            <option value="Standard Cleaning">Standard Cleaning</option>
+                                            <option value="Deep Cleaning">Deep Cleaning</option>
+                                            <option value="Move in/out">Move in/out</option>
+                                        </select>
+                                        <label class="input-label" for="msg-subject"> Which type of Cleaning Service
+                                            would you like? </label>
+                                    </div>
+                                </div>
+                                <div class="col-6"></div>
                                 <div class="col-12 col-lg-6">
                                     <div class="   input-wrapper">
                                         <ul style="list-style-type:none;" class="p-0">
@@ -201,102 +257,106 @@
                                                     wipe window tracks</label></li>
                                             <li><input type="checkbox" class="text-input" id="wpforms-1440-field_17_6"
                                                     name="ala" value="Clean all mirrors"><label
-                                                    for="wpforms-1440-field_17_6">&nbsp;&nbsp;Clean all mirrors</label>
-                                            </li>
+                                                    for="wpforms-1440-field_17_6">&nbsp;&nbsp;Clean all mirrors</label></li>
                                             <li><input type="checkbox" class="text-input" id="wpforms-1440-field_17_5"
                                                     name="ala"
                                                     value="Vacuum / wet wipe inside closets, cupboards and drawers"><label
-                                                    for="wpforms-1440-field_17_5">&nbsp;&nbsp;Vacuum / wet wipe inside
-                                                    closets,
+                                                    for="wpforms-1440-field_17_5">&nbsp;&nbsp;Vacuum / wet wipe inside closets,
                                                     cupboards and drawers</label></li>
                                             <li>
                                                 <input type="checkbox" class="text-input" id="wpforms-1440-field_17_4"
                                                     name="ala" value="Clean garage and/or patio"><label
-                                                    for="wpforms-1440-field_17_4">&nbsp;&nbsp;Clean garage and/or
-                                                    patio</label></li>
+                                                    for="wpforms-1440-field_17_4">&nbsp;&nbsp;Clean garage and/or patio</label></li>
                                             <li>
                                                 <input type="checkbox" class="text-input" id="wpforms-1440-field_17_9"
                                                     name="ala" value="Wash windows">
-                                                <label for="wpforms-1440-field_17_9">&nbsp;&nbsp;Wash windows</label>
-                                            </li>
+                                                <label for="wpforms-1440-field_17_9">&nbsp;&nbsp;Wash windows</label></li>
                                         </ul>
-                                        <label class="input-label" for="msg-subject"> Would you like to add on À La Carte items?</label>
+                                        <label class="input-label" for="msg-subject"> À La Carte </label>
                                     </div>
                                 </div>
+                                <div class="col-6"></div>
                                 <div class="col-12 col-lg-6">
                                     <div class="   input-wrapper">
-                                        <select name="contact-method" class="text-input" id="">
-                                            <option value="" disabled="" selected="selected">Number of Bedrooms</option>
-                                            <option value="1 Bedroom">1 Bedroom</option>
-                                            <option value="2 Bedrooms">2 Bedrooms</option>
-                                            <option value="3 Bedrooms">3 Bedrooms</option>
-                                            <option value="4 Bedrooms">4 Bedrooms</option>
-                                            <option value="5 or more Bedrooms">5 or more Bedrooms</option>
-                                        </select>
-                                        <label class="input-label" for="msg-subject"> Number of Bedrooms </label>
+                                        <input class="text-input" id="msg-subject" name="cleaners" value="One time" type="radio"
+                                            required> One Time <br>
+                                        <input class="text-input" id="msg-subject" name="cleaners" value="Weekly" type="radio"
+                                            required> Weekly <br>
+                                        <input class="text-input" id="msg-subject" name="cleaners" value="Bi-weekly" type="radio"
+                                        required> Bi-weekly <br>
+                                        <input class="text-input" id="msg-subject" name="cleaners" value="Every 4 weeks" type="radio"
+                                        required> Every 4 weeks 
+                                        <label class="input-label" for="msg-subject"> How often would you like your cleaning? </label>
                                     </div>
                                 </div>
+                                <div class="col-6"></div>
                                 <div class="col-12 col-lg-6">
                                     <div class="   input-wrapper">
-                                        <select name="contact-method" class="text-input" id="">
-                                            <option value="" disabled="" selected="selected">Number of Bathrooms
-                                            </option>
-                                            <option value="1 Bathroom">1 Bathroom</option>
-                                            <option value="2 Bathrooms">2 Bathrooms</option>
-                                            <option value="3 Bathrooms">3 Bathrooms</option>
-                                            <option value="4 Bathrooms">4 Bathrooms</option>
-                                            <option value="5 or more Bathrooms">5 or more Bathrooms</option>
-                                        </select>
-                                        <label class="input-label" for="msg-subject"> Number of Bathrooms </label>
+                                        <input class="text-input" id="msg-subject"
+                                            placeholder="ASAP, a specific date, AM, PM, or don't care?" name="onetime" type="text">
+                                        <label class="input-label" for="msg-subject"> If one time please specify when? </label>
                                     </div>
                                 </div>
                                 <div class="col-12 col-lg-6">
                                     <div class="   input-wrapper">
                                         <input class="text-input" id="msg-subject"
-                                            placeholder="Total Square Footage (approximate) of your home if you know."
-                                            name="subject" type="text" required>
-                                        <label class="input-label" for="msg-subject"> Square Footage </label>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-lg-6">
-                                    <div class="   input-wrapper">
-                                        <select name="stories" class="text-input" id="">
-                                        <option value="" disabled="" selected="selected">How many stories is your home?</option><option value="1">1</option><option value="2">2</option><option value="3">3</option>
-                                        </select>
-                                        <label class="input-label" for="msg-subject"> Stories </label>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-lg-6">
-                                    <div class="   input-wrapper">
-                                        <select name="contact-method" class="text-input" id="">
-                                            <option value="" disabled="" selected="selected">Preferred Contact Method
-                                            </option>
-                                            <option value="email">email</option>
-                                            <option value="text">text</option>
-                                            <option value="phone call">phone call</option>
-                                        </select>
-                                        <label class="input-label" for="msg-subject"> Preferred Contact Method </label>
+                                            placeholder="Best days, Am or PM, or don't care." name="ongoing" type="text" >
+                                        <label class="input-label" for="msg-subject"> If on going please specify best days and times? </label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="   input-wrapper">
-                                        <input class="text-input" id="msg-subject" name="pets" value="yes" type="radio"
-                                            required> Yes <br>
-                                        <input class="text-input" id="msg-subject" name="pets" value="no" type="radio"
-                                            required> No
-                                        <label class="input-label" for="msg-subject"> Do You Have Pets? </label>
+                                        <input class="text-input" id="msg-subject" name="gethome" value="Customer home" type="radio"
+                                            required> Customer home <br>
+                                        <input class="text-input" id="msg-subject" name="gethome" value="Key under mat" type="radio"
+                                            required> Key under mat <br>
+                                        <input class="text-input" id="msg-subject" name="gethome" value="Door unlocked" type="radio"
+                                        required> Door unlocked <br>
+                                        <input class="text-input" id="msg-subject" name="gethome" value="Other" type="radio"
+                                        required> Other 
+                                        <label class="input-label" for="msg-subject"> How will the crew get in to your home? </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="   input-wrapper">
+                                        <input class="text-input" id="msg-subject" name="gethomeother" type="text" >
+                                        <label class="input-label" for="msg-subject"> If "Other", please let us know how we will get in. </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="   input-wrapper">
+                                        <input class="text-input" id="msg-subject" name="items" type="text" >
+                                        <label class="input-label" for="msg-subject"> Is there any items in your home you don't want touched?</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="   input-wrapper">
-                                        <input class="text-input" id="msg-subject" name="subject" type="text" required>
-                                        <label class="input-label" for="msg-subject"> How did you hear about us?
-                                        </label>
+                                        <input class="text-input" id="msg-subject" name="notclean" type="text" >
+                                        <label class="input-label" for="msg-subject"> Are there any rooms or areas you don't want cleaned? </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 ">
+                                    <div class="   input-wrapper">
+                                        <textarea class=" text-input" id="msg-text" name="ins"></textarea>
+                                        <label class="input-label" for="msg-text"> Special Instructions </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="   input-wrapper">
+                                        <input class="text-input" id="msg-subject" name="how" type="text" required>
+                                        <label class="input-label" for="msg-subject"> How did you hear about us? </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="   input-wrapper">
+                                        <select name="pay" class="text-input" id="">
+                                            <option value="Check">Check</option><option value="Cash">Cash</option>
+                                        </select>
+                                        <label class="input-label" for="msg-subject"> How would you like to pay? </label>
                                     </div>
                                 </div>
                                 <div class="col-12 submit-wrapper">
-                                    <button class=" btn-solid" id="submit-btn" type="submit"
-                                        name="UserSubmit">Submit</button>
+                                    <button class=" btn-solid" type="submit" name="estimate">Submit</button>
                                 </div>
                             </div>
                         </form>
